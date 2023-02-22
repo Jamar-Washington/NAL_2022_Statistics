@@ -29,7 +29,7 @@ The purpose of this project is to use SQL to create queries and answer questions
 All the data is under the stats tab on https://www.nationalarenaleague.com/. The stats I used were from the regular season only.
 
 ## Tools used
-
+PostgreSQL (PGadmin)
 
 ## Observations
 
