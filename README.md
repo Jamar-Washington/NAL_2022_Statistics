@@ -25,7 +25,7 @@ The purpose of this project is to use SQL to create queries and answer questions
 * To filter, sort, and order to find out the best player by position in each category
 
 ### Questions
-* Would the best players all be from the best team i n 2022 (Albany)? 
+* Would the best players all be from the best team in 2022 (Albany)? 
 * Which players were the best Iron-Man players (players that play on offense and defense)?
 * Can I use the queries to create a "Fantasy team" with the best players that could lead to a championship?
 
@@ -56,4 +56,9 @@ An example of what the tables look like after the columns were dropped is shown 
 ![Returner dropped columns](https://user-images.githubusercontent.com/109183214/220715696-7c4f8c16-50d3-451b-b193-e9ad7cf19747.png)
 
 After dropping the columns that I will not need at the moment, I am ready to start joining my tables and creating queries.
+
+When joining the columns, I learned that I am able to join multiple tables at once using the union operator. This can also be very helpful when dealing with larger datasets.
+![Rusher joined tables](https://user-images.githubusercontent.com/109183214/220756767-bdee26ab-ecd8-4032-ae9f-84243f6dbaca.png)
+
+
 ## Summary
