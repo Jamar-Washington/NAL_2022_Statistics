@@ -1,5 +1,4 @@
-﻿"#","Name","Pos","GP","COMP","COMP %","INC","INT","INT %","ATT","YDS","Avg YDS","PYPGA","TD Pass","TD Pass %","Rate","Long","Sacks","YDS Lost"
-"92","Calvin Fance","DL","12","1","1.000","0","0",".000","1","13","13","1.1","0",".000","119","13","0.0","0"
-"12","Warren Smith Jr","QB","9","17",".810","4","0",".000","21","146","9","16.2","6",".286","135","26","0.0","0"
-"10","Sam Castronova","QB","11","199",".642","111","8",".026","310","2433","12","221.2","58",".187","117","46","9.0","67"
-
+﻿Number,Name,Pos,GP,COMP,COMP %,INC,INT,INT %,ATT,YDS,Avg YDS,PYPGA,TD Pass,TD Pass %,Rate,Long,Sacks,YDS Lost
+92,Calvin Fance,DL,12,1,1,0,0,0,1,13,13,1.1,0,0,119,13,0,0
+12,Warren Smith Jr,QB,9,17,0.81,4,0,0,21,146,9,16.2,6,0.286,135,26,0,0
+10,Sam Castronova,QB,11,199,0.642,111,8,0.026,310,2433,12,221.2,58,0.187,117,46,9,67

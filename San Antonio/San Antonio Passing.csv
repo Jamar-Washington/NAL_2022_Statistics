@@ -1,5 +1,4 @@
-﻿"#","Name","Pos","GP","COMP","COMP %","INC","INT","INT %","ATT","YDS","Avg YDS","PYPGA","TD Pass","TD Pass %","Rate","Long","Sacks","YDS Lost"
-"5","Kali Rashaad","WR","12","0",".000","1","0",".000","1","0","0","0.0","0",".000","40","0","0.0","0"
-"4","Anthony Robinson","WR","9","1",".500","1","0",".000","2","9","9","1.0","1",".500","102","9","1.0","8"
-"12","Robert Kent","QB","11","343",".925","28","16",".043","371","2557","7","232.5","66",".178","117","43","16.0","92"
-
+﻿Number,Name,Pos,GP,COMP,COMP %,INC,INT,INT %,ATT,YDS,Avg YDS,PYPGA,TD Pass,TD Pass %,Rate,Long,Sacks,YDS Lost
+5,Kali Rashaad,WR,12,0,0,1,0,0,1,0,0,0,0,0,40,0,0,0
+4,Anthony Robinson,WR,9,1,0.5,1,0,0,2,9,9,1,1,0.5,102,9,1,8
+12,Robert Kent,QB,11,343,0.925,28,16,0.043,371,2557,7,232.5,66,0.178,117,43,16,92

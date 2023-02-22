@@ -19,10 +19,7 @@ CREATE TABLE Passer (
 	rating int not null,
 	long int not null,
 	sacks int not null,
-	yards_lost int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	yards_lost int not null
 );
 
 -- Creating table for rushing stats
@@ -37,10 +34,7 @@ CREATE TABLE Rusher (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for receiving stats
@@ -55,10 +49,7 @@ CREATE TABLE Reciever (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for defensive stats
@@ -75,10 +66,7 @@ CREATE TABLE Defender (
 	block_kick int not null,
 	intercept int not null,
 	deflection int not null,
-	TDs int not null,
-	
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	TDs int not null
 );
 
 -- Creating table for returning stats
@@ -91,10 +79,7 @@ CREATE TABLE Returner (
 	kick_yards	int not null,
 	avgkick_yards int not null,
 	kick_TDs int not null,
-	kick_long int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	kick_long int not null
 );
 
 -- Creating table for kicking stats
@@ -107,10 +92,7 @@ CREATE TABLE Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	duece int not null
 );
 
 
@@ -137,10 +119,7 @@ CREATE TABLE AL_Passer (
 	rating int not null,
 	long int not null,
 	sacks int not null,
-	yards_lost int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	yards_lost int not null
 );
 
 -- Creating table for rushing stats
@@ -155,10 +134,7 @@ CREATE TABLE AL_Rusher (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for receiving stats
@@ -173,10 +149,7 @@ CREATE TABLE AL_Reciever (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for defensive stats
@@ -193,10 +166,7 @@ CREATE TABLE AL_Defender (
 	block_kick int not null,
 	intercept int not null,
 	deflection int not null,
-	TDs int not null,
-	
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	TDs int not null
 );
 
 -- Creating table for returning stats
@@ -214,10 +184,7 @@ CREATE TABLE AL_Returner (
 	kick_yards	int not null,
 	avgkick_yards int not null,
 	kick_TDs int not null,
-	kick_long int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	kick_long int not null
 );
 
 -- Creating table for kicking stats
@@ -230,10 +197,7 @@ CREATE TABLE AL_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	duece int not null
 );
 
 -- Carolina
@@ -257,10 +221,7 @@ CREATE TABLE CA_Passer (
 	rating int not null,
 	long int not null,
 	sacks int not null,
-	yards_lost int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	yards_lost int not null
 );
 
 -- Creating table for rushing stats
@@ -275,10 +236,7 @@ CREATE TABLE CA_Rusher (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for receiving stats
@@ -293,10 +251,7 @@ CREATE TABLE CA_Reciever (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for defensive stats
@@ -313,10 +268,7 @@ CREATE TABLE CA_Defender (
 	block_kick int not null,
 	intercept int not null,
 	deflection int not null,
-	TDs int not null,
-	
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	TDs int not null
 );
 
 -- Creating table for returning stats
@@ -334,10 +286,7 @@ CREATE TABLE CA_Returner (
 	kick_yards	int not null,
 	avgkick_yards int not null,
 	kick_TDs int not null,
-	kick_long int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	kick_long int not null
 );
 
 -- Creating table for kicking stats
@@ -350,10 +299,7 @@ CREATE TABLE CA_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	duece int not null
 );
 
 -- Columbus
@@ -377,10 +323,7 @@ CREATE TABLE CO_Passer (
 	rating int not null,
 	long int not null,
 	sacks int not null,
-	yards_lost int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	yards_lost int not null
 );
 
 -- Creating table for rushing stats
@@ -395,10 +338,7 @@ CREATE TABLE CO_Rusher (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for receiving stats
@@ -413,10 +353,7 @@ CREATE TABLE CO_Reciever (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for defensive stats
@@ -433,10 +370,7 @@ CREATE TABLE CO_Defender (
 	block_kick int not null,
 	intercept int not null,
 	deflection int not null,
-	TDs int not null,
-	
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	TDs int not null
 );
 
 -- Creating table for returning stats
@@ -454,10 +388,7 @@ CREATE TABLE CO_Returner (
 	kick_yards	int not null,
 	avgkick_yards int not null,
 	kick_TDs int not null,
-	kick_long int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	kick_long int not null
 );
 
 -- Creating table for kicking stats
@@ -470,10 +401,7 @@ CREATE TABLE CO_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	duece int not null
 );
 
 -- Jacksonville
@@ -497,10 +425,7 @@ CREATE TABLE JX_Passer (
 	rating int not null,
 	long int not null,
 	sacks int not null,
-	yards_lost int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	yards_lost int not null
 );
 
 -- Creating table for rushing stats
@@ -515,10 +440,7 @@ CREATE TABLE JX_Rusher (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for receiving stats
@@ -533,10 +455,7 @@ CREATE TABLE JX_Reciever (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for defensive stats
@@ -553,10 +472,7 @@ CREATE TABLE JX_Defender (
 	block_kick int not null,
 	intercept int not null,
 	deflection int not null,
-	TDs int not null,
-	
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	TDs int not null
 );
 
 -- Creating table for returning stats
@@ -574,10 +490,7 @@ CREATE TABLE JX_Returner (
 	kick_yards	int not null,
 	avgkick_yards int not null,
 	kick_TDs int not null,
-	kick_long int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	kick_long int not null
 );
 
 -- Creating table for kicking stats
@@ -590,10 +503,7 @@ CREATE TABLE JX_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	duece int not null
 );
 
 -- Orlando
@@ -617,10 +527,7 @@ CREATE TABLE OR_Passer (
 	rating int not null,
 	long int not null,
 	sacks int not null,
-	yards_lost int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	yards_lost int not null
 );
 
 -- Creating table for rushing stats
@@ -635,10 +542,7 @@ CREATE TABLE OR_Rusher (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for receiving stats
@@ -653,10 +557,7 @@ CREATE TABLE OR_Reciever (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for defensive stats
@@ -673,10 +574,7 @@ CREATE TABLE OR_Defender (
 	block_kick int not null,
 	intercept int not null,
 	deflection int not null,
-	TDs int not null,
-	
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	TDs int not null
 );
 
 -- Creating table for returning stats
@@ -694,10 +592,7 @@ CREATE TABLE OR_Returner (
 	kick_yards	int not null,
 	avgkick_yards int not null,
 	kick_TDs int not null,
-	kick_long int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	kick_long int not null
 );
 
 -- Creating table for kicking stats
@@ -710,10 +605,7 @@ CREATE TABLE OR_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	duece int not null
 );
 
 -- San Antonio
@@ -737,10 +629,7 @@ CREATE TABLE SA_Passer (
 	rating int not null,
 	long int not null,
 	sacks int not null,
-	yards_lost int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	yards_lost int not null
 );
 
 -- Creating table for rushing stats
@@ -755,10 +644,7 @@ CREATE TABLE SA_Rusher (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for receiving stats
@@ -773,10 +659,7 @@ CREATE TABLE SA_Reciever (
 	yards_game int not null,
 	TDs int not null,
 	long int not null,
-	fumbles int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	fumbles int not null
 );
 
 -- Creating table for defensive stats
@@ -793,10 +676,7 @@ CREATE TABLE SA_Defender (
 	block_kick int not null,
 	intercept int not null,
 	deflection int not null,
-	TDs int not null,
-	
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	TDs int not null
 );
 
 -- Creating table for returning stats
@@ -814,10 +694,7 @@ CREATE TABLE SA_Returner (
 	kick_yards	int not null,
 	avgkick_yards int not null,
 	kick_TDs int not null,
-	kick_long int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	kick_long int not null
 );
 
 -- Creating table for kicking stats
@@ -830,8 +707,5 @@ CREATE TABLE SA_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null,
-
-	PRIMARY KEY (player_name),
-	UNIQUE (player_num)
+	duece int not null
 );

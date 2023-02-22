@@ -1,12 +1,11 @@
-﻿"#","Name","Pos","GP","REC","YDS","Avg YDS","Rec. YPGA","TD","Long","FUM"
-"72","Cornelius Lewis","OL","11","1","2","2","0.2","1","2","0"
-"10","Sam Castronova","QB","11","1","13","13","1.2","0","13","0"
-"92","Calvin Fance","DL","12","1","14","14","1.2","0","14","0"
-"4","Trevon Shorts","MLB","10","1","23","23","2.3","0","23","0"
-"45","Jimmie Goodloe","OL","9","2","24","12","2.7","2","20","0"
-"7","Farrean Toney","WR","12","4","60","15","5.0","3","26","0"
-"15","Aaron Wascha","WR","7","24","299","12","42.7","7","40","0"
-"13","Marquel Wade","DB","9","31","350","11","38.9","6","41","0"
-"22","Dwayne Hollis","DB","12","38","464","12","38.7","5","29","0"
-"6","Darius Prince","WR","12","101","1308","13","109.0","39","46","0"
-
+﻿Number,Name,Pos,GP,REC,YDS,Avg YDS,Rec. YPGA,TD,Long,FUM
+72,Cornelius Lewis,OL,11,1,2,2,0.2,1,2,0
+10,Sam Castronova,QB,11,1,13,13,1.2,0,13,0
+92,Calvin Fance,DL,12,1,14,14,1.2,0,14,0
+4,Trevon Shorts,MLB,10,1,23,23,2.3,0,23,0
+45,Jimmie Goodloe,OL,9,2,24,12,2.7,2,20,0
+7,Farrean Toney,WR,12,4,60,15,5,3,26,0
+15,Aaron Wascha,WR,7,24,299,12,42.7,7,40,0
+13,Marquel Wade,DB,9,31,350,11,38.9,6,41,0
+22,Dwayne Hollis,DB,12,38,464,12,38.7,5,29,0
+6,Darius Prince,WR,12,101,1308,13,109,39,46,0

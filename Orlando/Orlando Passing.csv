@@ -1,5 +1,4 @@
-﻿"#","Name","Pos","GP","COMP","COMP %","INC","INT","INT %","ATT","YDS","Avg YDS","PYPGA","TD Pass","TD Pass %","Rate","Long","Sacks","YDS Lost"
-"21","Anthony Cruz","WR","9","1","1.000","0","0",".000","1","10","10","1.1","0",".000","108","0","0.0","0"
-"3","Jabari Dunham","QB","3","5",".357","9","2",".143","14","91","18","30.3","2",".143","59","43","6.0","39"
-"10","Matt Parsons","QB","3","43",".489","45","5",".057","88","430","10","143.3","9",".102","74","30","3.0","19"
-
+﻿Number,Name,Pos,GP,COMP,COMP %,INC,INT,INT %,ATT,YDS,Avg YDS,PYPGA,TD Pass,TD Pass %,Rate,Long,Sacks,YDS Lost
+21,Anthony Cruz,WR,9,1,1,0,0,0,1,10,10,1.1,0,0,108,0,0,0
+3,Jabari Dunham,QB,3,5,0.357,9,2,0.143,14,91,18,30.3,2,0.143,59,43,6,39
+10,Matt Parsons,QB,3,43,0.489,45,5,0.057,88,430,10,143.3,9,0.102,74,30,3,19
