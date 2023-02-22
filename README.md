@@ -44,11 +44,16 @@ The columns that will be dropped are as followed:
 * `Completion %`,
 * `Interception %`, and
 * `Touchdown Pass %` in the Passing columns
-* 'Punt Returns',
-* 'Punt Returns Yards',
-* 'Punt Returns Average',
-* 'Punt Returns Touchdown', and
-* 'Punt Returns Long' from the Returning columns
+* `Punt Returns`,
+* `Punt Returns Yards`,
+* `Punt Returns Average`,
+* `Punt Returns Touchdown`, and
+* `Punt Returns Long` in the Returning columns  
 The reason for removing the punting columns even though they are not percentages is due to the fact that punting is not allowed in indoor football. The alternatives to 
-punting is kicking a Field Goal or running a play to get the necessary yards.
+punting is kicking a Field Goal or running a play to get the necessary yards.  
+When dropping the columns, I learned that I am able to drop multiple columns at once. I find this very helpful as this can be useful when dealing with larger datasets.
+An example of what the tables look like after the columns were dropped is shown below.
+![Returner dropped columns](https://user-images.githubusercontent.com/109183214/220715696-7c4f8c16-50d3-451b-b193-e9ad7cf19747.png)
+
+After dropping the columns that I will not need at the moment, I am ready to start joining my tables and creating queries.
 ## Summary
