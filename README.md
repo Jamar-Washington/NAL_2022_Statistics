@@ -28,9 +28,12 @@ The purpose of this project is to use SQL to create queries and answer questions
 ## Data
 All the data is under the stats tab on https://www.nationalarenaleague.com/. The stats I used were from the regular season only.
 
-## Tools used
+## Tools use
 PostgreSQL (PGadmin)
 
 ## Observations
+When going over the data in the CSVs, I found that there were statistics that are suppose to be in percentages. I found that I did not need that data as I can create a 
+column later in my observations if necessary. So, I will drop all of the columns that have percentages in them.
+![Kicker stats](https://user-images.githubusercontent.com/109183214/220696438-06412bae-6454-493b-80eb-091b3edc8b37.png)
 
 ## Summary
