@@ -4,10 +4,14 @@
 Growing up in the Dallas-Fort Worth area, there are a lot of franchises that people can follow. However, since Dallas-Fort Worth is in Texas, I mostly watched 
 football along with everyone else. This makes sense as the most followed sports franchise is the Dallas Cowboys. Although I watched the Cowboys play inside the 
 stadium as well on TV, hoping they would lose, I preferred sports that were indoor. The main reason was due to the heat throughout the year, even in the fall. 
-What happens when football goes indoor? You get something called arena football.  
+What happens when football goes indoor? You get something called indoor/arena football.  
 <p align="center">
    <img width="460" height="300" src="https://3.bp.blogspot.com/_CWMzwqCVq04/R9RV8UlL2-I/AAAAAAAABQA/ykiObtXnVS4/s400/desperados.JPG">
-</p>  https://3.bp.blogspot.com/_CWMzwqCVq04/R9RV8UlL2-I/AAAAAAAABQA/ykiObtXnVS4/s400/desperados.JPG
+</p> 
+<p align="center">
+   https://3.bp.blogspot.com/_CWMzwqCVq04/R9RV8UlL2-I/AAAAAAAABQA/ykiObtXnVS4/s400/desperados.JPG
+</p> 
+
 The Dallas Desperados played in the Arena Football League from 2002 to 2008 and were owned by Cowboys owner Jerry Jones. I remember going to one of these games and I have
 been following the sport ever since. Although the Arena Football League is no more, for now, that hasn't stopped other leagues from emerging. One of those leagues being
 the National Arena League (NAL). They are the closest league to the AFL and starts thier 2023 season in April.
@@ -34,6 +38,17 @@ PostgreSQL (PGadmin)
 ## Observations
 When going over the data in the CSVs, I found that there were statistics that are suppose to be in percentages. I found that I did not need that data as I can create a 
 column later in my observations if necessary. So, I will drop all of the columns that have percentages in them.
-![Kicker stats](https://user-images.githubusercontent.com/109183214/220696438-06412bae-6454-493b-80eb-091b3edc8b37.png)
-
+![Kicker stats](https://user-images.githubusercontent.com/109183214/220696438-06412bae-6454-493b-80eb-091b3edc8b37.png)  
+The columns that will be dropped are as followed:
+* `Field Goal %` in the Kicking columns
+* `Completion %`,
+* `Interception %`, and
+* `Touchdown Pass %` in the Passing columns
+* 'Punt Returns',
+* 'Punt Returns Yards',
+* 'Punt Returns Average',
+* 'Punt Returns Touchdown', and
+* 'Punt Returns Long' from the Returning columns
+The reason for removing the punting columns even though they are not percentages is due to the fact that punting is not allowed in indoor football. The alternatives to 
+punting is kicking a Field Goal or running a play to get the necessary yards.
 ## Summary
