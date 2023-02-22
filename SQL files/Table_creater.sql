@@ -35,7 +35,7 @@ CREATE TABLE Rusher (
 );
 
 -- Creating table for receiving stats
-CREATE TABLE Reciever (
+CREATE TABLE receiver (
 	player_num int not null,
 	player_name varchar(40) not null,
 	player_pos varchar(3) not null,
@@ -134,7 +134,7 @@ CREATE TABLE AL_Rusher (
 );
 
 -- Creating table for receiving stats
-CREATE TABLE AL_Reciever (
+CREATE TABLE AL_receiver (
 	player_num int not null,
 	player_name varchar(40) not null,
 	player_pos varchar(3) not null,
@@ -236,7 +236,7 @@ CREATE TABLE CA_Rusher (
 );
 
 -- Creating table for receiving stats
-CREATE TABLE CA_Reciever (
+CREATE TABLE CA_receiver (
 	player_num int not null,
 	player_name varchar(40) not null,
 	player_pos varchar(3) not null,
@@ -338,7 +338,7 @@ CREATE TABLE CO_Rusher (
 );
 
 -- Creating table for receiving stats
-CREATE TABLE CO_Reciever (
+CREATE TABLE CO_receiver (
 	player_num int not null,
 	player_name varchar(40) not null,
 	player_pos varchar(3) not null,
@@ -440,7 +440,7 @@ CREATE TABLE JX_Rusher (
 );
 
 -- Creating table for receiving stats
-CREATE TABLE JX_Reciever (
+CREATE TABLE JX_receiver (
 	player_num int not null,
 	player_name varchar(40) not null,
 	player_pos varchar(3) not null,
@@ -542,7 +542,7 @@ CREATE TABLE OR_Rusher (
 );
 
 -- Creating table for receiving stats
-CREATE TABLE OR_Reciever (
+CREATE TABLE OR_receiver (
 	player_num int not null,
 	player_name varchar(40) not null,
 	player_pos varchar(3) not null,
@@ -644,7 +644,7 @@ CREATE TABLE SA_Rusher (
 );
 
 -- Creating table for receiving stats
-CREATE TABLE SA_Reciever (
+CREATE TABLE SA_receiver (
 	player_num int not null,
 	player_name varchar(40) not null,
 	player_pos varchar(3) not null,
