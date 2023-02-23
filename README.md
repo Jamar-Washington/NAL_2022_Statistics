@@ -12,25 +12,25 @@ What happens when football goes indoor? You get something called indoor/arena fo
    https://3.bp.blogspot.com/_CWMzwqCVq04/R9RV8UlL2-I/AAAAAAAABQA/ykiObtXnVS4/s400/desperados.JPG
 </p> 
 
-The Dallas Desperados played in the Arena Football League from 2002 to 2008 and were owned by Cowboys owner Jerry Jones. I remember going to one of these games and I have
-been following the sport ever since. Although the Arena Football League is no more, for now, that hasn't stopped other leagues from emerging. One of those leagues being
-the National Arena League (NAL). They are the closest league to the AFL and starts thier 2023 season in April.
-I also like looking at the statistics of all the teams and finding the data was very easy.
-The purpose of this project is to use SQL to create queries and answer questions that I have.
+The Dallas Desperados played in the Arena Football League FROM 2002 to 2008 AND were owned by Cowboys owner Jerry Jones. I remember going to one of these games AND I have
+been following the sport ever since. Although the Arena Football League is no more, for now, that hasn't stopped other leagues FROM emerging. One of those leagues being
+the National Arena League (NAL). They are the closest league to the AFL AND starts thier 2023 season in April.
+I also like looking at the statistics of all the teams AND finding the data was very easy.
+The purpose of this project is to use SQL to create queries AND answer questions that I have.
 
 ## Objective 
-* To create a database with all the data collected from the 2022 NAL season
+* To create a database with all the data collected FROM the 2022 NAL season
 * To join the tables of each major statistical category (passing, rushing, receiving, defensive, returning, kicking)
 * To filter out any unwanted data that is deemed unnecessary to the project
-* To filter, sort, and order to find out the best player by position in each category
+* To filter, sort, AND order to find out the best player by position in each category
 
 ### Questions
-* Would the best players all be from the best team i n 2022 (Albany)? 
-* Which players were the best Iron-Man players (players that play on offense and defense)?
+* Would the best players all be FROM the best team i n 2022 (Albany)? 
+* Which players were the best Iron-Man players (players that play on offense AND defense)?
 * Can I use the queries to create a "Fantasy team" with the best players that could lead to a championship?
 
 ## Data
-All the data is under the stats tab on https://www.nationalarenaleague.com/. The stats I used were from the regular season only.
+All the data is under the stats tab on https://www.nationalarenaleague.com/. The stats I used were FROM the regular season only.
 
 ## Tools use
 PostgreSQL (PGadmin)
@@ -42,12 +42,12 @@ column later in my observations if necessary. So, I will drop all of the columns
 The columns that will be dropped are as followed:
 * `Field Goal %` in the Kicking columns
 * `Completion %`,
-* `Interception %`, and
+* `Interception %`, AND
 * `Touchdown Pass %` in the Passing columns
 * `Punt Returns`,
 * `Punt Returns Yards`,
 * `Punt Returns Average`,
-* `Punt Returns Touchdown`, and
+* `Punt Returns Touchdown`, AND
 * `Punt Returns Long` in the Returning columns  
 The reason for removing the punting columns even though they are not percentages is due to the fact that punting is not allowed in indoor football. The alternatives to 
 punting is kicking a Field Goal or running a play to get the necessary yards.  
@@ -55,5 +55,5 @@ When dropping the columns, I learned that I am able to drop multiple columns at 
 An example of what the tables look like after the columns were dropped is shown below.
 ![Returner dropped columns](https://user-images.githubusercontent.com/109183214/220715696-7c4f8c16-50d3-451b-b193-e9ad7cf19747.png)
 
-After dropping the columns that I will not need at the moment, I am ready to start joining my tables and creating queries.
+After dropping the columns that I will not need at the moment, I am ready to start joining my tables AND creating queries.
 ## Summary

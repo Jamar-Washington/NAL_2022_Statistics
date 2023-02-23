@@ -2,15 +2,15 @@
 INSERT INTO defender
 SELECT * FROM al_defender
 UNION
-Select * FROM ca_defender
+SELECT * FROM ca_defender
 UNION
-select * FROM co_defender
+SELECT * FROM co_defender
 UNION
-select * FROM jx_defender
+SELECT * FROM jx_defender
 UNION
-select * FROM or_defender
+SELECT * FROM or_defender
 UNION
-select * FROM sa_defender;
+SELECT * FROM sa_defender;
 
 -- Verify
 SELECT * FROM defender;
@@ -19,15 +19,15 @@ SELECT * FROM defender;
 INSERT INTO kicker
 SELECT * FROM al_kicker
 UNION
-Select * FROM ca_kicker
+SELECT * FROM ca_kicker
 UNION
-select * FROM co_kicker
+SELECT * FROM co_kicker
 UNION
-select * FROM jx_kicker
+SELECT * FROM jx_kicker
 UNION
-select * FROM or_kicker
+SELECT * FROM or_kicker
 UNION
-select * FROM sa_kicker;
+SELECT * FROM sa_kicker;
 
 -- Verify
 SELECT * FROM kicker;
@@ -36,15 +36,15 @@ SELECT * FROM kicker;
 INSERT INTO passer
 SELECT * FROM al_passer
 UNION
-Select * FROM ca_passer
+SELECT * FROM ca_passer
 UNION
-select * FROM co_passer
+SELECT * FROM co_passer
 UNION
-select * FROM jx_passer
+SELECT * FROM jx_passer
 UNION
-select * FROM or_passer
+SELECT * FROM or_passer
 UNION
-select * FROM sa_passer;
+SELECT * FROM sa_passer;
 
 -- Verify
 SELECT * FROM passer;
@@ -53,15 +53,15 @@ SELECT * FROM passer;
 INSERT INTO receiver
 SELECT * FROM al_receiver
 UNION
-Select * FROM ca_receiver
+SELECT * FROM ca_receiver
 UNION
-select * FROM co_receiver
+SELECT * FROM co_receiver
 UNION
-select * FROM jx_receiver
+SELECT * FROM jx_receiver
 UNION
-select * FROM or_receiver
+SELECT * FROM or_receiver
 UNION
-select * FROM sa_receiver;
+SELECT * FROM sa_receiver;
 
 -- Verify
 SELECT * FROM receiver;
@@ -70,15 +70,15 @@ SELECT * FROM receiver;
 INSERT INTO returner
 SELECT * FROM al_returner
 UNION
-Select * FROM ca_returner
+SELECT * FROM ca_returner
 UNION
-select * FROM co_returner
+SELECT * FROM co_returner
 UNION
-select * FROM jx_returner
+SELECT * FROM jx_returner
 UNION
-select * FROM or_returner
+SELECT * FROM or_returner
 UNION
-select * FROM sa_returner;
+SELECT * FROM sa_returner;
 
 -- Verify
 SELECT * FROM returner;
@@ -87,15 +87,15 @@ SELECT * FROM returner;
 INSERT INTO rusher
 SELECT * FROM al_rusher
 UNION
-Select * FROM ca_rusher
+SELECT * FROM ca_rusher
 UNION
-select * FROM co_rusher
+SELECT * FROM co_rusher
 UNION
-select * FROM jx_rusher
+SELECT * FROM jx_rusher
 UNION
-select * FROM or_rusher
+SELECT * FROM or_rusher
 UNION
-select * FROM sa_rusher;
+SELECT * FROM sa_rusher;
 
 -- Verify
 SELECT * FROM rusher;
