@@ -88,7 +88,7 @@ CREATE TABLE Kicker (
 	fg_attempt int not null,
 	fg_made int not null,
 	fg_long int not null,
-	duece int not null
+	deuce int not null
 );
 
 
@@ -193,7 +193,7 @@ CREATE TABLE AL_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null
+	deuce int not null
 );
 
 -- Carolina
@@ -295,7 +295,7 @@ CREATE TABLE CA_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null
+	deuce int not null
 );
 
 -- Columbus
@@ -397,7 +397,7 @@ CREATE TABLE CO_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null
+	deuce int not null
 );
 
 -- Jacksonville
@@ -499,7 +499,7 @@ CREATE TABLE JX_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null
+	deuce int not null
 );
 
 -- Orlando
@@ -601,7 +601,7 @@ CREATE TABLE OR_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null
+	deuce int not null
 );
 
 -- San Antonio
@@ -703,5 +703,5 @@ CREATE TABLE SA_Kicker (
 	fg_made int not null,
 	fg_per int not null,
 	fg_long int not null,
-	duece int not null
+	deuce int not null
 );

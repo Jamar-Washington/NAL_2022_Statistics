@@ -1,19 +1,14 @@
 -- Finding the best quaterback
-DELETE FROM passer 
-WHERE 
-	( player_pos = 'DL' )
-	OR
-	( player_pos = 'DB' )
-	OR
-	( player_pos = 'WR' )
-;
+-- This is because the main role of the quaterbacks is passing
 SELECT * 
 FROM passer
 WHERE 
+    ( player_pos = 'QB' )
+    AND
 	( games_played > 5 )
 	AND
 	( yards > (SELECT AVG(yards) FROM passer) )
-ORDER BY "yards" DESC;
+ORDER BY "rating" DESC;
 
 -- Finding the best rusher that is not a quaterback
 -- This is because the main role of the quaterbacks is passing
@@ -115,4 +110,109 @@ WHERE
 SELECT * FROM d_back
 ORDER BY "deflection" DESC;
 
--- Use (DELETE FROM table_name WHERE condition;) to delete rows 
+-- FANTASY TEAM QUERY
+-- Query for QB
+-- Same query for finding the best QB
+SELECT * 
+FROM passer
+WHERE 
+    ( player_pos = 'QB' )
+    AND
+	( games_played > 5 )
+	AND
+	( yards > (SELECT AVG(yards) FROM passer) )
+ORDER BY "rating" DESC;
+
+-- Query for OS
+-- Same query for finding the best receivers
+-- OS (offensive specialist), just like QBs, are exempt from Iron-Man rules
+SELECT * 
+FROM receiver
+WHERE 
+	( tds > 15 )
+	AND
+	( yards > (SELECT AVG(yards) FROM receiver) )
+ORDER BY "yards" DESC;
+
+-- Query for DS
+-- Looked at the defenders in the defensive back table with the most deflections
+-- If the deflections do not stand out, the look at the deflections and interceptions
+-- DS (defensive specialist) are exempt from Iron-Man rules 
+SELECT * FROM d_back
+ORDER BY "deflection" DESC;
+
+-- Query for OG/LE
+-- Since there isn't stats for offensive lineman (pancakes, sacks allowed, holding penalties, etc.), I chose to go with
+-- defensive lineman with the most sacks
+SELECT * 
+FROM d_line
+ORDER BY "sacks" DESC;
+
+-- Query for TE/RE
+-- Since the Tight End is mostly blocking, I focused more on the player with the most tackles (so they can be a better
+-- defensive lineman than an tight end)
+SELECT * 
+FROM d_line
+INNER JOIN receiver
+ON d_line.player_name = receiver.player_name
+ORDER BY "total_tack" DESC;
+
+-- Query for C/NG
+-- Same logic behind selecting my OG/LE with the exception that I want players that can tackle in the event that the team is
+-- prevent a goal line run
+SELECT * 
+FROM d_line
+WHERE 
+	( player_name != 'Chei Hill' ) and
+	( player_name != 'Anthony Johnson' ) and
+	( player_name != 'Maurice Leggett' ) and
+	( player_name != 'Ken Washington' )
+ORDER BY "total_tack" DESC;
+
+-- Query for FB/LB
+-- Since the Fullback is mostly blocking, I focused more on the player with the most tackles
+-- But unlike the Tight End, there should be a balance between 
+SELECT * 
+FROM lineback
+INNER JOIN rusher
+ON lineback.player_name = rusher.player_name
+ORDER BY "total_tack" DESC, "yards" DESC;
+
+-- Query for WR/LB
+-- Receiving is more of a factor for this position since this player mostly isn't the linebacker who blitzes.
+-- However, more tackles does help the player
+SELECT * 
+FROM lineback
+INNER JOIN receiver
+ON lineback.player_name = receiver.player_name
+ORDER BY "yards" DESC;
+
+-- Query for WR/DB
+-- Since the best defensive backs players were select 
+SELECT * 
+FROM d_back
+INNER JOIN receiver
+ON d_back.player_name = receiver.player_name
+ORDER BY "yards" DESC;
+
+-- Query for K
+-- Looking for kicker with not only the most made field goals, but the most deuces as well
+-- Deuces are an opportunity for kickers on kickoffs to kick the football through the uprights. 
+-- If successful, the kicking team is awarded two points.
+SELECT * 
+FROM kicker
+WHERE 
+	( fg_attempt > 0  )
+	AND
+	( fg_made / fg_attempt > .5  )
+ORDER BY "fg_made" DESC;
+
+-- Query for KR
+-- Looking for best returner by returning yards ("kick_yards")
+SELECT * 
+FROM returner
+WHERE 
+	( kick_tds > 0  )
+	AND
+	( kick_yards > 100  )
+ORDER BY "kick_yards" DESC;
