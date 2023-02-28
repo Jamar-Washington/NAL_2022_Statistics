@@ -68,7 +68,71 @@ When creating queries, I was seeing that certain positions were in tables that n
 ![Defensive kickers](https://user-images.githubusercontent.com/109183214/220955419-0a8db72d-3348-4a7c-9863-4d8d2c55212d.png)
 ![Defensive quaterbacks](https://user-images.githubusercontent.com/109183214/220955423-91c16b4c-3075-4cbf-8eb6-2360fa928a67.png)
 
+### Answering the question
+#### Would the best players all be from the best team in 2022 (Albany)? 
+* Best Passer by yards - Robert Kent (2557) - San Antonio
+* Best Passer by touchdowns - Robert Kent (66) - San Antonio
+* Best Passer by yards - Sam Castronova (226) - Albany
+* Best Passer by touchdowns - Sam Castronova (15) - Albany
+* Best Receiver by yards - Darius Prince (1308) - Albany
+* Best Receiver by touchdowns - Darius Prince (39) - Albany
+* Best Defender by tackles - Markus Smith (66) - Jacksonville
+* Best Defender by sacks - Kerry Starks (10) - Columbus
+* Best Defender by interceptions - Maurice Leggett (6) - Columbus
+* Best Defender by deflections - Darius Prince (39) - Albany
+* Best Returner by return yards - Darien Townsend (472) - Columbus
+* Best Returner by touchdowns - Darien Townsend (3) - Columbus
+* Best Kicker by made field goals - TC Stevens (9) - Carolina
+* Best Kicker by longest field goals - Daniel Justino (52) - Orlando
+* Best Kicker by deuces - Dwayne Hollis (23) - Albany  
 
+After looking at all of the best players certain stats, a good portion are Albany players. Knowing this, I would suggest that the league is good overall and
+that no team is superior than others.
 
+#### Which players were the best Iron-Man players (players that play on offense and defense)?
+When I looked into the data, it was not easy to find out the best Iron-Man players. This is because some of the players that I assumed would have offensive and
+defensive stats only have one or the other. However, I will continue to work with the data to see if I can determine the best Iron-Man players
+
+#### Can I use the queries to create a "Fantasy team" with the best players that could lead to a championship?
+For the fantasy team, I had to create a 21 player team. The reason behind 21 players is explained in the NAL rulebook:  
+`Prior to the game, teams provide their 21-man game day roster to the lead official which will list all of their
+players and designated specialists (offense, defense and special teams).`  
+So I decided to go with the following number of players per posiitions:  
+QB x2  
+OS x2   
+DS x3   
+OG/LE x2   
+TE/RE x2   
+C/NG x2   
+FB/LB x2   
+WR/LB x2  
+WR/DB x2  
+K x1  
+KR x1
+
+After running my queries and explaining my reasoning in the sql file, I went with the following 21 players:
+* Jonathan Bane - QB
+* Sam Castronova - QB
+* Darius Prince - OS
+* Kali Rashaad - OS
+* Dwayne Hollis - DS
+* Markus Smith - DS
+* Maurice Leggett - DS
+* Chei Hill - OG/LE
+* Anthony Johnson - OG/LE
+* Maurice Leggett - TE/RE
+* Ken Washington - TE/RE
+* Micah Robinson - C/NG
+* Calvin Fance - C/NG
+* Zack Brown - FB/LB
+* Kerry Starks - FB/LB
+* Jarmon Fortson - WR/LB
+* Miles Kelly - WR/LB
+* DJ Myers - WR/DB
+* Kendrick Ings - WR/DB
+* TC Stevens - K
+* Darien Townsend - KR
 
 ## Summary
+I learn a few SQL operators that I didn't know and will positively impact me in future SQL projects. I would like to thank the National Arena League for having 
+stats on the website so I can run this project.
